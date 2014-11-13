@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global license_ver 1.0.1
 %global qualifier v20140414-1359
 %global gittag org.eclipse.license-license-%{license_ver}.%{qualifier}
@@ -15,8 +16,6 @@ BuildArch: noarch
 
 BuildRequires: tycho
 BuildRequires: tycho-extras
-
-Requires: eclipse-filesystem
 
 %description
 Shared license feature for Eclipse. Other features may consume this
