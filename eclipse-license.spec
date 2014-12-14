@@ -30,7 +30,7 @@ feature to avoid unnecessary duplication of license boiler plate.
 %mvn_build -j
 
 %install
-%mvn_install
+%mvn_install -X
 
 %files -f .mfiles
 %doc org.eclipse.license/epl-v10.html
