@@ -16,6 +16,7 @@ BuildArch: noarch
 
 BuildRequires: tycho
 BuildRequires: tycho-extras
+BuildRequires: eclipse-filesystem
 
 Requires: eclipse-filesystem
 
@@ -30,7 +31,7 @@ feature to avoid unnecessary duplication of license boiler plate.
 %mvn_build -j
 
 %install
-%mvn_install -X
+%mvn_install
 
 %files -f .mfiles
 %doc org.eclipse.license/epl-v10.html
