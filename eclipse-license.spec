@@ -9,7 +9,7 @@ Release:   5%{?dist}
 Summary:   Shared license feature for Eclipse
 
 License:   EPL
-URL:       http://wiki.eclipse.org/CBI
+URL:       https://wiki.eclipse.org/CBI
 Source0:   http://git.eclipse.org/c/cbi/org.eclipse.license.git/snapshot/%{gittag}.tar.bz2
 
 BuildArch: noarch
